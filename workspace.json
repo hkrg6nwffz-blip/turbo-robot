@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T09:30:56.039Z",
+  "generatedAtEpochMs": 1793093456039,
+  "generator": {
+    "name": "Code Janitor",
+    "feature": "workspace-memory"
+  },
+  "handoffGuidance": [
+    "Read graphify-out/GRAPH_REPORT.md first for architecture and dependency questions.",
+    "Use workspace.json for machine-readable repo context before scanning broad parts of the repository.",
+    "Use graphify-out/WORKSPACE_MEMORY.md and workspacememory.md for human-readable handoff notes, recent changes, and Git-aware status."
+  ],
+  "workspace": {
+    "name": "codespaces-blank",
+    "root": "/workspaces/codespaces-blank",
+    "activeFile": "main bot/bot.py",
+    "refreshReason": "startup",
+    "outputFiles": {
+      "markdown": "graphify-out/WORKSPACE_MEMORY.md",
+      "markdownMirror": "workspacememory.md",
+      "structuredManifest": "workspace.json"
+    },
+    "suggestedStartingPoints": [
+      "main bot/bot.py"
+    ],
+    "stats": {
+      "totalFiles": 11,
+      "topLevelAreas": [
+        {
+          "name": "[root]",
+          "count": 6
+        },
+        {
+          "name": "main bot",
+          "count": 5
+        }
+      ],
+      "primaryFileTypes": [
+        {
+          "name": ".db",
+          "count": 2
+        },
+        {
+          "name": ".html",
+          "count": 2
+        },
+        {
+          "name": ".py",
+          "count": 2
+        },
+        {
+          "name": ".css",
+          "count": 1
+        },
+        {
+          "name": ".js",
+          "count": 1
+        },
+        {
+          "name": ".json",
+          "count": 1
+        },
+        {
+          "name": ".md",
+          "count": 1
+        },
+        {
+          "name": ".swift",
+          "count": 1
+        }
+      ],
+      "keyFiles": [],
+      "fileInventory": [
+        {
+          "path": "797.html",
+          "topLevelArea": "[root]",
+          "extension": ".html",
+          "isKeyFile": false
+        },
+        {
+          "path": "797.py",
+          "topLevelArea": "[root]",
+          "extension": ".py",
+          "isKeyFile": false
+        },
+        {
+          "path": "797.swift",
+          "topLevelArea": "[root]",
+          "extension": ".swift",
+          "isKeyFile": false
+        },
+        {
+          "path": "businesspilot.db",
+          "topLevelArea": "[root]",
+          "extension": ".db",
+          "isKeyFile": false
+        },
+        {
+          "path": "main bot/bot.py",
+          "topLevelArea": "main bot",
+          "extension": ".py",
+          "isKeyFile": false
+        },
+        {
+          "path": "main bot/businesspilot.db",
+          "topLevelArea": "main bot",
+          "extension": ".db",
+          "isKeyFile": false
+        },
+        {
+          "path": "main bot/static/bot.css",
+          "topLevelArea": "main bot",
+          "extension": ".css",
+          "isKeyFile": false
+        },
+        {
+          "path": "main bot/static/bot.js",
+          "topLevelArea": "main bot",
+          "extension": ".js",
+          "isKeyFile": false
+        },
+        {
+          "path": "main bot/templates/bot.html",
+          "topLevelArea": "main bot",
+          "extension": ".html",
+          "isKeyFile": false
+        },
+        {
+          "path": "workspace.json",
+          "topLevelArea": "[root]",
+          "extension": ".json",
+          "isKeyFile": false
+        },
+        {
+          "path": "workspacememory.md",
+          "topLevelArea": "[root]",
+          "extension": ".md",
+          "isKeyFile": false
+        }
+      ]
+    }
+  },
+  "package": {
+    "available": false,
+    "error": "package.json was not found."
+  },
+  "currentStack": {
+    "lastActivityAt": "2026-10-27T07:46:36.282Z",
+    "trackedChangeCount": 40,
+    "trackedFileSnapshotCount": 9,
+    "changeTypeCounts": {
+      "save": 40,
+      "create": 0,
+      "delete": 0,
+      "rename": 0
+    }
+  },
+  "trackedSnapshots": [
+    {
+      "filePath": "main bot/bot.py",
+      "updatedAt": 1793087196282,
+      "lineCount": 43,
+      "charCount": 1388,
+      "hash": "ab2ae8ee8543",
+      "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db..."
+    },
+    {
+      "filePath": "main bot/templates/bot.html",
+      "updatedAt": 1792499793637,
+      "lineCount": 19,
+      "charCount": 649,
+      "hash": "eed365ab7a07",
+      "preview": "<!DOCTYPE html> / <html lang=\"ru\"> / <mata charset=\"UTF-8\"> / <head> / <link rel=\"stylesheet\" href={{url_for('static', filename='bot.css')}}> / <title>BusinessPilot</title> / </head> / <body> / <h1>Hello welcome to Bu..."
+    },
+    {
+      "filePath": "main bot/static/bot.css",
+      "updatedAt": 1792495770290,
+      "lineCount": 6,
+      "charCount": 119,
+      "hash": "6206ec83e3a3",
+      "preview": "body { / background:greenyellow; / font-family:Georgia, 'Times New Roman', Times, serif; / color:black; / }"
+    },
+    {
+      "filePath": "797.html",
+      "updatedAt": 1792244644989,
+      "lineCount": 29,
+      "charCount": 775,
+      "hash": "a118f46a3252",
+      "preview": "<!DOCTYPE html> / <html lang=\"ru\"> / <head> / <meta charset=\"UTF-8\"> / <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> / <title>Проверка личности</title> / <style> / body { / font-family: Arial,..."
+    },
+    {
+      "filePath": "main bot/static/bot.js",
+      "updatedAt": 1791983618958.218,
+      "lineCount": 0,
+      "charCount": 0,
+      "hash": "empty",
+      "preview": ""
+    },
+    {
+      "filePath": "main bot/templates/static/script.js",
+      "updatedAt": 1791982898734.1924,
+      "lineCount": 0,
+      "charCount": 0,
+      "hash": "empty",
+      "preview": ""
+    },
+    {
+      "filePath": "main bot/templates/static/bot.css",
+      "updatedAt": 1791982832110.19,
+      "lineCount": 0,
+      "charCount": 0,
+      "hash": "empty",
+      "preview": ""
+    },
+    {
+      "filePath": "main bot/templates/static/bot.html",
+      "updatedAt": 1791982686243.1848,
+      "lineCount": 0,
+      "charCount": 0,
+      "hash": "empty",
+      "preview": ""
+    }
+  ],
+  "recentChanges": [
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 33: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:46:36.282Z",
+      "recordedAtEpochMs": 1793087196282,
+      "before": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1387,
+        "hash": "c2641fc21aa0",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087196282
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1388,
+        "hash": "ab2ae8ee8543",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087196282
+      },
+      "diff": {
+        "lineStart": 33,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 33: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": ")"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:46:26.786Z",
+      "recordedAtEpochMs": 1793087186786,
+      "before": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1386,
+        "hash": "94c9eff7681c",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087186786
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1387,
+        "hash": "c2641fc21aa0",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087186786
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": ""
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:46:16.612Z",
+      "recordedAtEpochMs": 1793087176612,
+      "before": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1385,
+        "hash": "6296b752da41",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087176612
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1386,
+        "hash": "94c9eff7681c",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087176612
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": ","
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:45:42.064Z",
+      "recordedAtEpochMs": 1793087142064,
+      "before": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1384,
+        "hash": "67f7261781c4",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087142064
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1385,
+        "hash": "6296b752da41",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087142064
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "("
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: removed 1 line.",
+      "recordedAt": "2026-10-27T07:45:40.738Z",
+      "recordedAtEpochMs": 1793087140738,
+      "before": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1385,
+        "hash": "6296b752da41",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087140738
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1384,
+        "hash": "67f7261781c4",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087140738
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 1,
+        "addedLines": 0,
+        "summary": "Line 32: removed 1 line.",
+        "beforeFragment": "(",
+        "afterFragment": ""
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 33: inserted 2 lines.",
+      "recordedAt": "2026-10-27T07:45:35.276Z",
+      "recordedAtEpochMs": 1793087135276,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1347,
+        "hash": "df0bc9fc6177",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087135276
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 43,
+        "charCount": 1385,
+        "hash": "6296b752da41",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087135276
+      },
+      "diff": {
+        "lineStart": 33,
+        "removedLines": 0,
+        "addedLines": 2,
+        "summary": "Line 33: inserted 2 lines.",
+        "beforeFragment": "",
+        "afterFragment": ""
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: removed 1 line.",
+      "recordedAt": "2026-10-27T07:45:07.889Z",
+      "recordedAtEpochMs": 1793087107889,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1348,
+        "hash": "efc451a3d8ed",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087107889
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1347,
+        "hash": "df0bc9fc6177",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087107889
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 1,
+        "addedLines": 0,
+        "summary": "Line 32: removed 1 line.",
+        "beforeFragment": ")",
+        "afterFragment": ""
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:45:03.450Z",
+      "recordedAtEpochMs": 1793087103450,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1346,
+        "hash": "b82507c3cbed",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087103450
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1348,
+        "hash": "efc451a3d8ed",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087103450
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "__"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:45:00.943Z",
+      "recordedAtEpochMs": 1793087100943,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1342,
+        "hash": "bf8d27941058",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087100943
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1346,
+        "hash": "b82507c3cbed",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087100943
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "file"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:44:58.285Z",
+      "recordedAtEpochMs": 1793087098285,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1340,
+        "hash": "2590de42dde7",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087098285
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1342,
+        "hash": "bf8d27941058",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087098285
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "__"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 12: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:44:31.210Z",
+      "recordedAtEpochMs": 1793087071210,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1339,
+        "hash": "1ccc1ec82e7a",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087071210
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1340,
+        "hash": "2590de42dde7",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087071210
+      },
+      "diff": {
+        "lineStart": 12,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 12: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": ")"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 12: removed 1 line.",
+      "recordedAt": "2026-10-27T07:44:28.892Z",
+      "recordedAtEpochMs": 1793087068892,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1340,
+        "hash": "2590de42dde7",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087068892
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1339,
+        "hash": "1ccc1ec82e7a",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087068892
+      },
+      "diff": {
+        "lineStart": 12,
+        "removedLines": 1,
+        "addedLines": 0,
+        "summary": "Line 12: removed 1 line.",
+        "beforeFragment": ")",
+        "afterFragment": ""
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:44:22.753Z",
+      "recordedAtEpochMs": 1793087062753,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1338,
+        "hash": "c01e0b2f5acb",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087062753
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1340,
+        "hash": "2590de42dde7",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087062753
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "()"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:44:21.227Z",
+      "recordedAtEpochMs": 1793087061227,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1335,
+        "hash": "99f1ed997bc3",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087061227
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1338,
+        "hash": "c01e0b2f5acb",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087061227
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "ath"
+      }
+    },
+    {
+      "type": "save",
+      "path": "main bot/bot.py",
+      "toPath": "",
+      "summary": "Line 32: inserted 1 line.",
+      "recordedAt": "2026-10-27T07:44:18.754Z",
+      "recordedAtEpochMs": 1793087058754,
+      "before": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1332,
+        "hash": "641d9eb0d8df",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087058754
+      },
+      "after": {
+        "kind": "text",
+        "lineCount": 42,
+        "charCount": 1335,
+        "hash": "99f1ed997bc3",
+        "preview": "from flask import Flask, render_template, request / import sqlite3 / import os / def init_db(): / db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),\"businesspilot.db\") / connection = sqlite3.connect(db...",
+        "updatedAt": 1793087058754
+      },
+      "diff": {
+        "lineStart": 32,
+        "removedLines": 0,
+        "addedLines": 1,
+        "summary": "Line 32: inserted 1 line.",
+        "beforeFragment": "",
+        "afterFragment": "bsp"
+      }
+    }
+  ],
+  "hotFiles": [
+    {
+      "filePath": "main bot/bot.py",
+      "count": 40
+    }
+  ],
+  "git": {
+    "available": false,
+    "branch": "",
+    "headSummary": "",
+    "statusSummary": "",
+    "changedFileCount": 0,
+    "statusLines": [],
+    "error": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
+  },
+  "github": {
+    "available": false,
+    "summary": "Could not determine the GitHub repository from origin remote: fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
+  },
+  "graphify": {
+    "reportAvailable": false,
+    "graphAvailable": false,
+    "reportPath": "",
+    "graphPath": "",
+    "highlights": ""
+  },
+  "projectPlanner": null,
+  "agentNotes": [
+    "For recent repo changes, check recentChanges, trackedSnapshots, hotFiles, and git.",
+    "For architecture questions, combine graphify highlights with the Graphify report.",
+    "For machine-readable repo context, prefer this workspace.json manifest before broad repo scans."
+  ]
+}

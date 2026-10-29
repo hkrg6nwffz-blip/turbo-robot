@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <mata charset="UTF-8">
+        <head>
+            <link rel="stylesheet" href={{url_for('static', filename='bot.css')}}>
+            <title>BusinessPilot</title>
+        </head>
+        <body>
+            <h1>Hello welcome to BusinessPilot.</h1>
+            <p>Your business management system.</p>
+            <form method="POST">
+                <input type="text" name="task">
+                <button type="sumbit">Добавь задачу</button>
+            </form>
+            {% if task %}
+                       <p>Получена задача: {{ task }}</p>
+                    {% endif %}
+        </body>
+        </html>     
